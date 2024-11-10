@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>My Biodata</title>
+</head>
+<body>
+    <!-- Header Section with Navigation Menu -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a>
+                    <ul class="submenu">
+                        <li><a href="#personal-details">Personal Details</a></li>
+                        <li><a href="#contact-info">Contact Info</a></li>
+                    </ul>
+                </li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <h1>Welcome to My Biodata</h1>
+            <p>Explore my profile, projects, and get in touch!</p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>NAIRA TAHIRA</h2>
+            <img src=".jpg" alt="Naira Tahira" class="profile-pic">
+            <p>Hello! I'm Naira Tahira, a college student currently studying at Politeknik Negeri Bandung.</p>
+        </section>
+
+        <!-- Personal Details Section -->
+        <section id="personal-details" class="section">
+            <h3>Personal Details</h3>
+            <p><b>Name:</b> Naira Tahira</p>
+            <p><b>Gender:</b> Female</p>
+            <p><b>Date of Birth:</b> 4th July 2007</p>
+            <p><b>Place of Birth:</b> Doha, Qatar</p>
+            <p><b>Religion:</b> Islam</p>
+            <p><b>University:</b> Politeknik Negeri Bandung</p>
+            <p><b>Address:</b> Jalan Parang Raya No 7 Babakan Sari</p>
+            <p><b>Civil Status:</b> College Student</p>
+        </section>
+
+        <!-- Contact Info Section -->
+        <section id="contact-info" class="section">
+            <h3>Contact Information</h3>
+            <p><b>Email:</b> <a href="mailto:naira.tahira9a@gmail.com">naira.tahira9a@gmail.com</a></p>
+            <p><b>Phone:</b> 081399635165</p>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Naira Tahira - All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
