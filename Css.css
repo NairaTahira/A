@@ -128,8 +128,10 @@ div {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.center-justify-container {
+
+.div2 {
     text-align: justify;
+    overflow: auto;
 }
 
 #home {
